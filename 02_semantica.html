@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <!--título da página-->
+        <title>Meu Blog</title>
+    </head>
+    <body>
+        <article>
+            <!--div com elemento semantico header-->
+            <header> 
+                <h1>Blog Pessoal</h1>
+                <p>Um espaço para você personalizar e chamar de seu!</p>
+            </header>
+            <hr/>
+            <!--div com tags semantica form, forms com requisição get-->
+            <form action="https://www.w3schools.com/action_page.php." method="get">
+                <!--campo de texto 15 caracteres-->
+                Um nome legal: <br/>
+                <input type= "text" maxlength="15" name="nome"> <br/>
+                <!--campo apenas de leitura-->
+                <br/> Uma frase para alegrar seu dia:
+                <br/> <input type= "text" name="apenas me leia" value="be nice :)"readonly> <br/>
+                <!--campo numérico com restrição de 25000 até 30000-->
+                <br/> Tente adivinhar o número da loteria: <br/>
+                <input type= "number" name="quantidade" min="25000" max="30000"> <br/>
+                <!--radiobox com humor do dia-->
+                <br/> Humor: <br/>
+                <input type= "radio" name="feliz">😄<br/>
+                <input type= "radio" name="normal">🙂<br/>
+                <input type= "radio" name="triste">💩<br/>
+                <!--checkbox como to-do list-->
+                <br/> To-list: <br/>
+                <input type= "checkbox" name="LMS">Fazer a segunda atividade de LMS<br/>
+                <input type= "checkbox" name="CVII">Ler o texto da Diana<br/>
+                <input type= "checkbox" name="AIHC">Ler o artigo da Rainara<br/>
+                <hr/>
+            </form>
+
+        </article>
+    </body>
+</html>
