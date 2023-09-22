@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    height: 100%; 
+    /*largura*/
+    width: 400px;
+    /*barra fixa*/ 
+    position: fixed;
+    /*ocupar a pg inteira*/ 
+    top: 0;
+    left: 0;
+    background-color: palevioletred;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+
+  .head a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  /*mudar a cor quando passar o mouse*/
+  .head a:hover {
+    color: linen;
+  }
+  
+  /*conteúdo da página*/
+  .conteudo {
+    /*alinhado a direita*/
+    margin-left: 400px;
+    padding: 0px 10px;
+  }
+
+  h3 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+p {
+    /*borda nos artigos*/
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+
+    text-align: justify;
+
+    /*adicione padding*/
+    padding: 10px 10px;
+}
+  

@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    /*cor de fundo*/
+    background-color: linen;
+
+    /*mude a fonte dos textos*/
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+
+.head {
+    /*cor de fundo do navegador e ajustes visuais*/
+    display:flex;
+    background-color: palevioletred;
+    justify-content:space-evenly;
+
+}
+
+.button {
+    /*padding e ajustes visuas dos botões*/
+    padding: 10px;
+    background-color: transparent;
+    border: 10px none;
+    margin: 30px
+}
+
+.button:hover {
+    /*para mudar de cor ao passar o mouse*/
+    background-color: linen;
+    color: white;
+}
+
+/*menu dropdown*/
+.dp-button {
+    padding: 10px;
+    background-color: transparent;
+    border: 10px none;
+    margin: 30px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.ct-dropdown {
+    display: none;
+    position: absolute;
+    background-color: linen;
+    /*largura*/
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.ct-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ct-dropdown a:hover {background-color: #ddd;}
+
+.dropdown:hover .ct-dropdown {display: block;}
+
+.dropdown:hover .dp-button {background-color:white;}
+
+/*menu dropdown fim*/
+
+h3 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+p {
+    /*borda nos artigos*/
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    
+    /*elemento alto sufuciente pra gera rolagem*/
+    margin: 0px 100px;
+    text-align: justify;
+
+    /*1adicione padding*/
+    padding: 10px 10px;
+}
