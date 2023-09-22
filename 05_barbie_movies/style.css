@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: linen;
+}
+
+/*navegador superior*/
+.head {
+    /*cor de fundo do navegador e ajustes visuais*/
+    display:flex;
+    background-color: palevioletred;
+    justify-content:space-around;
+}
+
+.button {
+    /*padding e ajustes visuas dos botões*/
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    margin: 30px
+}
+
+.button:hover {
+    /*para mudar de cor ao passar o mouse*/
+    background-color: linen;
+    color: palevioletred;
+}
+/*navegador superior fim*/
+
+
+/*menu dropdown*/
+.dp-button {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    margin: 30px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.ct-dropdown {
+    display: none;
+    position: absolute;
+    background-color: linen;
+    /*largura*/
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.ct-dropdown a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.ct-dropdown a:hover {background-color: #ddd;}
+
+.dropdown:hover .ct-dropdown {display: block;}
+
+.dropdown:hover .dp-button {background-color:white;}
+/*menu dropdown fim*/
+
+
+/*menu esquerdo*/
+.left-head {
+    height: 100%; 
+    /*tamanho fixo*/
+    width: 300px;
+    position: fixed;
+    background-color: pink;
+    left: 0;
+}
+
+.button2 {
+    /*padding e ajustes visuas dos botões*/
+    padding: 6px;
+    background-color: transparent;
+    border: none;
+    margin: 9px
+}
+
+.button2:hover {
+    /*para mudar de cor ao passar o mouse*/
+    background-color: linen;
+    color: palevioletred;
+}
+
+  /*menu direito*/
+.right-head {
+    height: 100%; 
+    /*largura*/
+    width: 100px;
+    position: fixed;
+    background-color: pink;
+    right: 0;
+}
+  /*imagens do menu direito*/
+.img0 {
+    height: 100px;
+    width: 100%;
+    margin-top: 18px;
+}
+ /*rodapé*/
+.bottom-head {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    background-color: palevioletred;
+    bottom: 0;
+  }
+
+ /*conteiner da galeria, largura 3x o menu lateral direito (300px), com ajuste na margem esquerda em 100px por estética*/
+.conteudo {
+     /*imagens em colunas de 3x3*/
+    display: flex;
+    margin-left: 400px;
+    margin-right: 300px;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ /*ajuste manual das 9 fotos, tamanho de 150px x 150px*/
+.img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img1 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img3 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img4 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img5 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img6 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img7 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.img8 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
